@@ -7,7 +7,7 @@ test('slowmotion',async({}) =>{
         slowMo: 500,
         headless: false
     })
-    //folder and spec for the video 
+    //folder and spec for the video
     const context= await browser.newContext({
         recordVideo: {
             dir: 'videos/',
