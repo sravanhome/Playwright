@@ -1,7 +1,7 @@
 const {test,expect} = require('@playwright/test');
 
 
-test('recorded test', async ({ page }) => {
+test('recorded test @smoke', async ({ page }) => {
     await page.goto('https://saucedemo.com');
     await page.locator('[data-test="username"]').click();
     await page.locator('[data-test="username"]').fill("john");
