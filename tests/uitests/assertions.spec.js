@@ -11,8 +11,6 @@ test('assertions',async({page}) =>{
     }
     //visible,hidden
     await expect(page.locator('text=The Kitchen')).toBeVisible()
-    //await expect(page.locator('text=The Kitchen')).toBeHidden()
-    //enabled,disabled
     await expect(page.locator('text=The Kitchen')).toBeEnabled()
     //await expect(page.locator('text=The Kitchen')).toBeDisabled()
 
