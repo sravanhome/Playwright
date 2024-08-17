@@ -1,7 +1,7 @@
 const{test,expect}=require('@playwright/test')
-const {loginpage}=require('../Pages/loginpage')
-const {orderformpage}=require('../Pages/orderformpage')
-const {commoncode}=require('../Pages/commoncode')
+const {loginpage}=require('../../Pages/loginpage')
+const {orderformpage}=require('../../Pages/orderformpage')
+const {commoncode}=require('../../Pages/commoncode')
 
 
 
